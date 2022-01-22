@@ -271,15 +271,15 @@ body {
   gap: 1.8rem;
 }
 /* HELPER/SETTING CLASSES */
-strong {
-  font-weight: 600;
-}
 .margin-bottom-md {
-  margin-bottom: 4.8px !important;
+  margin-bottom: 4.8rem !important;
 }
 .margin-right-sm {
   margin-right: 1.6rem !important;
 }
 .center-text {
   text-align: center;
+}
+strong {
+  font-weight: 600;
 }
