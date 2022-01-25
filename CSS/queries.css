@@ -43,6 +43,36 @@ INSTEAD WE ASSUME THAT 1REM= 1EM= 16PX */
   .hero {
     gap: 4.8rem;
   }
+  .testimonial-container {
+    padding: 9.6rem 3.2rem;
+  }
+}
+/* BELOW 944PX ( Tablets) */
+/* users third breaking point */
+/* ********************* */
+@media (max-width: 59em) {
+  html {
+    /* 8px/16px=0.5 */
+    font-size: 50%;
+  }
+  .hero {
+    grid-template-columns: 1fr;
+    padding: 0 8rem;
+    gap: 6.4rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .hero-text-box {
+    text-align: center;
+  }
+  .hero-img-box {
+    text-align: center;
+  }
+  .delivered-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
 }
 
 /* FONT SIZE SYSTEM (px)
