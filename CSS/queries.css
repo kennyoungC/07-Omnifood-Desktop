@@ -100,6 +100,7 @@ INSTEAD WE ASSUME THAT 1REM= 1EM= 16PX */
   }
   .btn-mobile-nav {
     display: block;
+    z-index: 1000;
   }
   .main-nav {
     background-color: rgba(255, 255, 255, 0.973);
