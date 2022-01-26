@@ -23,6 +23,10 @@ const headerEL = document.querySelector(".header");
 btnNavEL.addEventListener("click", function () {
   headerEL.classList.toggle("nav-open");
 });
+///////////////////////////////////////////////////
+//Smooth scrolling animation
+const allLinks = document.querySelectorAll("a:link");
+console.log(allLinks);
 
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions

@@ -52,7 +52,9 @@ html {
 
   /* Only works if there is nothing absolutely positioned in relation to the body */
   overflow-x: hidden;
-  scroll-behavior: smooth;
+
+  /* does not work on safari*/
+  /* scroll-behavior: smooth; */
 }
 
 body {
