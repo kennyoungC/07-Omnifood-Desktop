@@ -10,11 +10,20 @@ console.log(h1);
 //   h1.style.backgroundColor = "red";
 //   h1.style.padding = "5rem";
 // });
-
+// Set current year
 const yearEL = document.querySelector(".year");
 const currentYear = new Date().getFullYear();
 console.log(currentYear);
 yearEL.textContent = currentYear;
+///////////////////////////////////////////////////
+// Make mobile navigation work
+const btnNavEL = document.querySelector(".btn-mobile-nav");
+const headerEL = document.querySelector(".header");
+
+btnNavEL.addEventListener("click", function () {
+  headerEL.classList.toggle("nav-open");
+});
+
 ///////////////////////////////////////////////////////////
 // Fixing flexbox gap property missing in some Safari versions
 function checkFlexGap() {
